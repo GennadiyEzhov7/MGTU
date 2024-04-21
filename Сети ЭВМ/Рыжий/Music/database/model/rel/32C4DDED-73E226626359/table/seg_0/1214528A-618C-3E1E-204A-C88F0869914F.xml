@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1214528A-618C-3E1E-204A-C88F0869914F" name="User_">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>2547475D-30BE-01EF-EC11-2F60659A1D13</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>user</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="login" id="5F7F3DFD-C76F-4011-1125-38E7B9028508">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>13392B0C-8927-2A93-8055-765D9DBB771D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pwdHash" id="A9A7D9A8-0E5F-83BA-D403-807194581E81">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>B26CA31C-8F6A-8951-BB1D-72E44A18EADC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="role" id="FDC234C5-9CD1-BEB9-CE49-CADA10B4B90F">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>44BDCBEA-83AA-D76D-244F-916DFEC63E72</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B6B43A99-6B7B-0F1D-3FF6-D5447435A27D">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>5F0916FB-6239-7145-2123-E49D2543D304</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="83C89808-EBE2-EE66-8A2B-C6A9C4EFE95B">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>2D2EB923-2BB7-0512-6578-C4D133E3DB93</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="gender" id="4DDFECA1-B4BD-AA8B-CEB6-F9536FB16644">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>ECF8A44D-5A57-9111-61B4-4B11FA5759B6</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="393AD39A-5355-8E43-72EE-DB152304126E" name="User_PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>5A4570F6-9A1B-4989-F8A9-5E59C8552CF9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5F7F3DFD-C76F-4011-1125-38E7B9028508"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

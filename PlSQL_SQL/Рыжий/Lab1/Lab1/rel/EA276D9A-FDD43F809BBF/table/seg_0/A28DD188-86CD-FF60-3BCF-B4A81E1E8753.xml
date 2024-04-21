@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A28DD188-86CD-FF60-3BCF-B4A81E1E8753" name="NON-REFILLABLE">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>7430FF3D-0CE4-5D3C-7E1A-3E2A421F1418</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<ordsAlias>non_refillable</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Reason" id="AEB0F25F-B78F-2D49-864D-EA27B8D433F2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>4A40CAA4-A1AE-7EA3-C342-89ABE530A8C2</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NON-REFILLABLE_ID" id="E659324F-E137-603D-C0E3-19968E831903">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43095BEF-CE50-4245-B92A-3F13D88210CC" name="NON-REFILLABLE_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E659324F-E137-603D-C0E3-19968E831903"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

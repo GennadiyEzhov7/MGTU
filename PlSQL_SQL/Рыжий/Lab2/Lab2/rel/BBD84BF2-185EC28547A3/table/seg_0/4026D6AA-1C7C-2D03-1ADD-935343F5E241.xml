@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4026D6AA-1C7C-2D03-1ADD-935343F5E241" name="Warehouse">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>296C76AD-08AF-CE9A-9C0D-60142B31F0AB</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74C10C6E-62A8-838E-EF80-5A748AD4C3F5">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>FEEAD527-8AE6-8D52-30A0-BCB9E30F54AA</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="count" id="1D0F7CED-E641-F59E-1FAD-63C7D5B3B2AA">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>CBD564F8-0BB8-EA2F-42CE-38BE024D1D02</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_id" id="6BD121EE-C1EC-1EF2-2EDD-C1BFB637D500">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<generatorID>FC48A438-E22C-C1A3-B2FC-ED66CC563953</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_code" id="48FD8342-899A-0C1F-0DC6-7C15F5DDD8C6">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<generatorID>2493444C-AB60-92B7-0625-EA4348556991</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38C17BE4-1A99-1E00-299A-0E91C3A9A6D1" referredColumn="2B498DEB-9864-AC9F-DD84-4D773BE039BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D0AE0DA-F3DB-BC65-4220-1707F4569A1C" name="Warehouse_PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>48B54873-8930-6A0D-B156-E12E0BA54127</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C10C6E-62A8-838E-EF80-5A748AD4C3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5D337117-C00F-E88D-3B36-46FEB99388C6" name="Warehouse__IDX">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DE455F22-EAD7-0A4D-AA4A-6C04CA713D3C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6BD121EE-C1EC-1EF2-2EDD-C1BFB637D500"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="214D9951-D0FE-11CF-7220-2F54E3DCA55D" name="Warehouse__IDXv1">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>205DC343-FD92-F57B-6DD8-79B2A4592C8C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="48FD8342-899A-0C1F-0DC6-7C15F5DDD8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="417F4258-B63A-E8CB-F77A-6BB9184E31EC" name="Warehouse_Product_FK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:06:45 UTC</createdTime>
+<generatorID>205DC343-FD92-F57B-6DD8-79B2A4592C8C</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48FD8342-899A-0C1F-0DC6-7C15F5DDD8C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

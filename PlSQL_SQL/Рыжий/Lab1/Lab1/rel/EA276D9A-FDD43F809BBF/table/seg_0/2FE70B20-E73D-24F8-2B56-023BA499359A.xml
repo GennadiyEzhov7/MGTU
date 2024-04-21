@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FE70B20-E73D-24F8-2B56-023BA499359A" name="DRUG">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>097D60B8-2CA8-3D40-5C6F-A314235AB55B</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Drug_ID" id="17961137-C6B7-1AC9-A16F-742FE690A31E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>5F7CDE2C-A28B-7137-618F-87FF2BDF3D3E</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Side_Effects" id="945DB2B0-9F41-52F7-1EE9-2344DA9B15B1">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>4B7DC6BF-8575-90D8-4C8E-4098D1C97982</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Benefits" id="7B79D203-89DC-126A-394D-EB852F78EBF1">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>F589A6E7-D9FE-99B6-12CD-E090EBA6CFAC</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CC77E6C7-3D2A-EE6A-2A2D-0E095E04527D" name="DRUG_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>EC30DA8D-6E7C-22DE-3CFA-405AA0B3A850</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17961137-C6B7-1AC9-A16F-742FE690A31E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

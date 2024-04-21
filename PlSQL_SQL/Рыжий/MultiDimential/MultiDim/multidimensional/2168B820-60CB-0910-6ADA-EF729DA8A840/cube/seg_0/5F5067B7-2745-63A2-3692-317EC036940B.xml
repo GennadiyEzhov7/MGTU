@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Cube class="oracle.dbtools.crest.model.design.multidimensional.Cube" name="Sales" directorySegmentName="seg_0" id="5F5067B7-2745-63A2-3692-317EC036940B">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 01:36:22 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>SALES</nameInOracleAW>
+<compressedcomposites>false</compressedcomposites>
+<factEntity>A9A68F2E-9F08-74A2-473B-7CC3B2668ED4</factEntity>
+<partitioned>true</partitioned>
+<useGlobalComposites>false</useGlobalComposites>
+<virtual>true</virtual>
+<dimensions>
+<dimension>9DF07545-EB66-6810-DC2C-2586AE517C04</dimension>
+<dimension>C068C877-A5B4-A075-0545-EE271A7DFF02</dimension>
+</dimensions>
+<measures itemClass="oracle.dbtools.crest.model.design.multidimensional.Measure">
+<measure name="count" id="72F0F3F0-2B79-4467-408B-1408D49DA772">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:22:20 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>COUNT</nameInOracleAW>
+<actasFactDimension>false</actasFactDimension>
+<additivity>Fully-Additive</additivity>
+<aggregationFunctionID>1</aggregationFunctionID>
+<cube>5F5067B7-2745-63A2-3692-317EC036940B</cube>
+<isformula>false</isformula>
+<iscustomFormula>false</iscustomFormula>
+<measureFact>992195BD-2B6C-C4BF-E8D4-0CC4084127D5</measureFact>
+<olAPoffset>0</olAPoffset>
+<olAPoperator>Lag</olAPoperator>
+<olAPPeriodToDateoperation>AVERAGE</olAPPeriodToDateoperation>
+<olAPStart>0</olAPStart>
+<olAPStep>1</olAPStep>
+<olAPStop>1</olAPStop>
+<oracleAWFormulaType>NO</oracleAWFormulaType>
+<rankDirectionCode>HL</rankDirectionCode>
+<rankDirectionName>Highest To Lowest</rankDirectionName>
+</measure>
+</measures>
+<factContainers>
+<container>A9A68F2E-9F08-74A2-473B-7CC3B2668ED4</container>
+</factContainers>
+</Cube>

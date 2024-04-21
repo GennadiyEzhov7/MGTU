@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C53BEC8-CC4F-D578-A173-11142B55D6B2" name="HOSPITAL">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:35:45 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>HOSPITAL</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Hospital ID" id="63C64667-6D22-5E52-065E-3D7577FFF93D">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:35:59 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="AF8B4A15-1E02-4DDC-7B87-9EBF10C027E5">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:36:09 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="34AE1954-8692-255A-ACEE-954F0C903455">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:36:16 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Phone" id="C71AF8D0-368C-E771-3E95-1DC5464B39AE">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:36:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B0F31EB-D492-AB47-4980-C160058BD830" name="HOSPITAL PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:36:08 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>63C64667-6D22-5E52-065E-3D7577FFF93D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

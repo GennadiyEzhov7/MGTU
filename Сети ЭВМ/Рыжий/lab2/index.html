@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="C:/Users/mvarlamov/Desktop/web/lab2/resources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="C:/Users/mvarlamov/Desktop/web/lab2/resources/style.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="centerDiv">
+            <h2 id="titleNum">Guess the number!</h2>
+        </div>
+        <form id="numberForm">
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="message">
+                    Enter your number
+                </span>
+                <input class="form-control" type="number" id="numberInp" required autofocus>
+            </div>
+            <input type="submit" id="sendNumBtn" class="guessButton" value="Try to guess">
+        </form>
+        <form id="restartForm">
+            <div class="centerDiv">
+                <div style="margin: 10px auto;">
+                    <h4>Choose range</h4>
+                    <div class="symDiv">[</div>
+                    <input placeholder="0" class="rangeInput" required id="minRangeInp" type="number" name="rangeMin" value="0">
+                    <div class="symDiv">:</div>
+                    <input placeholder="999999" class="rangeInput" required id="maxRangeInp" type="number" name="rangeMax" value="1000">
+                    <div class="symDiv">]</div>
+                </div>
+            </div>
+            <input class="restartButton" type="submit" id="restartBtn" tabindex="0" value="Restart" tabindex="-1">
+        </form>
+        <div class="centerDiv">
+            <div style="margin: 0 auto;">
+                <h2>Rules</h2>
+                <p id="rules">In this game you have to guess a number from 0 to 1000. Good luck!</p>
+            </div>
+        </div>
+    </div>
+    <script src="C:/Users/mvarlamov/Desktop/web/lab2/resources/bootstrap/js/bootstrap.min.js"></script>
+    <script src="C:/Users/mvarlamov/Desktop/web/lab2/resources/script.js"></script>
+</body>
+
+</html>

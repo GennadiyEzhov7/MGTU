@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="450890E8-604B-352A-BABD-23E10D04A101" containerWithKeyObject="836865E8-2B18-CBEC-12BC-F51026AA6E6B" localFKIndex="36ACEF03-6643-F579-05FF-59200E1D576E" name="LIKED_SONGS_User_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:01:22 UTC</createdTime>
+<generatorID>5A4570F6-9A1B-4989-F8A9-5E59C8552CF9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<referredTableLongName>User</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1214528A-618C-3E1E-204A-C88F0869914F</referredTableID>
+<keyObject>393AD39A-5355-8E43-72EE-DB152304126E</keyObject>
+<referredKeyID>393AD39A-5355-8E43-72EE-DB152304126E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>login</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

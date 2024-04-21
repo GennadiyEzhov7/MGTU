@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg2" directorySegmentName="seg_0" id="0DE91494-00C5-CA9E-94E7-94CF2D817CDE">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:15:47 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[IF (:new.count > (SELECT count FROM Warehouse WHERE Product_code = :new.Product_code))
+INSERT INTO t_Sale (Order_id) VALUES (:new.id)]]></body>
+<triggerTime>BEFORE</triggerTime>
+<ref_NEW_AS>new</ref_NEW_AS>
+<scope>FOR EACH STATEMENT</scope>
+<table>75F77B7C-72A2-B59F-5A20-B041E1428FD8</table>
+</TriggerOraclev10g>

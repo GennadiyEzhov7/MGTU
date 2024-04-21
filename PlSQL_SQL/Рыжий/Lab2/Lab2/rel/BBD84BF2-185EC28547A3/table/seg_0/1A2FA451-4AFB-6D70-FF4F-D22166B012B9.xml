@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A2FA451-4AFB-6D70-FF4F-D22166B012B9" name="Order">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>C803A1DE-B5F5-D593-9036-36C30B1684F3</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="42302E6B-664E-884E-4515-F0885E441747">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>E177D3A0-9025-CC26-8D4F-9728FD5F9410</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_code" id="8FF0E308-20C0-B00C-4FAB-78790FF59D73">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<generatorID>14555240-F8B8-CA28-57DC-404DDE525AE7</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BD4967A-87FF-B78F-5DDF-15D18CA11F78" referredColumn="2B498DEB-9864-AC9F-DD84-4D773BE039BF"/>
+</associations>
+</Column>
+<Column name="Warehouse_id" id="ABBDA02F-5BF6-AF6D-6287-C625B0CC5EE3">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:02:42 UTC</createdTime>
+<generatorID>2D8799EA-92DD-8D06-4912-99EBC09EA766</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDB82E79-4ABD-2AEC-F790-3F5347D4B4C8" referredColumn="74C10C6E-62A8-838E-EF80-5A748AD4C3F5"/>
+</associations>
+</Column>
+<Column name="count" id="6D23B06B-EB9B-B834-8151-F4906BCAEDA6">
+<createdBy>user372-4</createdBy>
+<createdTime>2022-04-15 05:45:04 UTC</createdTime>
+<generatorID>BE6C34C9-4182-5648-A3F7-3FD044044A27</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="720CD72B-7A99-4D20-4330-EA1C287FED83">
+<createdBy>user372-4</createdBy>
+<createdTime>2022-04-15 05:45:04 UTC</createdTime>
+<generatorID>C48D2E18-79D0-5041-3D14-26A73422DA53</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB0FB19E-888F-26CF-BCA3-2B91CBF2FB5E" name="Order_PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>85574645-967D-DFCB-3047-BA1E8B5A9236</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="42302E6B-664E-884E-4515-F0885E441747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7FD9EFC2-4232-D031-2034-F73299A0E138" name="Order__IDX">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:46:58 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>DE455F22-EAD7-0A4D-AA4A-6C04CA713D3C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="42302E6B-664E-884E-4515-F0885E441747"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5157FE4-5864-B316-20D6-6E99F810B01C" name="Order_Product_FK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:02:42 UTC</createdTime>
+<generatorID>B17963B4-0E58-0F6D-6082-36BA79F4F179</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FF0E308-20C0-B00C-4FAB-78790FF59D73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24B31B7B-12D5-A8B0-2B0C-F2ECBBA060CA" name="Order_Warehouse_FK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:02:42 UTC</createdTime>
+<generatorID>F4DE0E6A-7E7E-F157-800B-3CC3456AD228</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABBDA02F-5BF6-AF6D-6287-C625B0CC5EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

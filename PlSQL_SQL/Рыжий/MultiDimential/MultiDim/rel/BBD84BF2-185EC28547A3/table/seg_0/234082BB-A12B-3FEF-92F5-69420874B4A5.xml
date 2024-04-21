@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="234082BB-A12B-3FEF-92F5-69420874B4A5" name="t_Order">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>E431A6C8-6AEE-0DA1-23DF-D4EB13A1CF17</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="start" id="814C908E-05EA-E179-FA28-03D49BAF5D91">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>93EC756D-ED17-01B2-7FCB-230CA6F0867D</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="end" id="1F7BFD33-7415-890B-8422-858A4810889F">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>8AC19D37-802D-B015-C5AA-34D24AA1D821</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_id" id="F4230323-028A-1521-75D0-9D1FBE1F4DB1">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>E9939339-CCD8-0AD2-F60C-44FF96358533</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A8223B03-C20B-D741-C3F7-0C5305431CBC" referredColumn="42302E6B-664E-884E-4515-F0885E441747"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2685F03B-54D7-ED15-B7EC-29D4A9442F39" name="t_Order_Order_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>EE3758E6-6375-C3A3-45B8-B223AED13430</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4230323-028A-1521-75D0-9D1FBE1F4DB1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

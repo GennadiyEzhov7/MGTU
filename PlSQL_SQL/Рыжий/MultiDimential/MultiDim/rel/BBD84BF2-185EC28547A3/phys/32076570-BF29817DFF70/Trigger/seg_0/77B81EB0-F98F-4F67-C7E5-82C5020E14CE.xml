@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg4" directorySegmentName="seg_0" id="77B81EB0-F98F-4F67-C7E5-82C5020E14CE">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 04:59:37 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<actions>INSERT</actions>
+<body><![CDATA[INSERT INTO t_Order (Order_id) VALUES (:new.id)]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>1A2FA451-4AFB-6D70-FF4F-D22166B012B9</table>
+</TriggerOraclev10g>

@@ -1,0 +1,53 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Product" directorySegmentName="seg_0" id="D537B46A-7677-5CF6-81B7-2BD313D6A7C1">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="Warehouse_id" id="2A78ABDA-5A60-019F-1872-2C2989A8D312">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="code" id="2B498DEB-9864-AC9F-DD84-4D773BE039BF">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Vendor_id" id="D540FF06-FD75-6B87-75F0-E1589B7F5D11">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="F305C231-D11D-BE49-BDC2-6B3AB6190A3D">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Product_Vendor_FK" id="0597C274-DFD9-E722-E596-C01ED5E941AF">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Product_Warehouse_FK" id="5FDF45D5-92AD-4024-D251-4AD5FFAD42A1">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Product_PK" id="CB74A93A-72C4-571F-2F1E-289FCC1FC494">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

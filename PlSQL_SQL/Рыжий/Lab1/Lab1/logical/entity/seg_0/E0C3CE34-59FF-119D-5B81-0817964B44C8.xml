@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0C3CE34-59FF-119D-5B81-0817964B44C8" name="PRESCRIPTION">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:36:45 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PRESCRIPTION</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="RX ID" id="1FCF78E8-8819-38D8-8BDE-AC3BAFF77E07">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:10 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Date Prescribed" id="BB4139DD-36B6-9413-88FF-5C3521C2B950">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:18 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dosage" id="0961F1B1-DB24-9162-747C-712FFF3FE799">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:37 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duraton" id="967FEE50-F13A-34EE-06C0-DD58476360CB">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:42 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Refillable" id="56F6D81C-4AB6-CA51-F6AF-4B5DDA385BC3">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:48 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug Name" id="D05D5081-4F57-CBFE-1038-9469026AF1EA">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:38:00 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Side Effects" id="303451A2-E899-29AB-ADF6-68C6AE0436F2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:38:09 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Benefits" id="8E633E81-1336-2CCB-3AB4-394333D019A9">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:38:23 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor ID1" id="A4350EFA-D115-4829-995E-A90FE93EA63F">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:02:14 UTC</createdTime>
+<generatorID>40C4C279-690B-4EC6-E0F1-DC008449277B</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>450AF4AF-B34E-9D64-583C-3674D3A8982F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient ID" id="7A74CBC4-ED60-8A68-0756-E040B787F1E2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:11:25 UTC</createdTime>
+<generatorID>D73BC417-F35F-EC73-E780-8059789950A7</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>F667E7F1-79E2-0777-2B98-FCC10A3504B7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Drug ID" id="A57F8320-9751-AB26-B5C0-34F320086F42">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:22:13 UTC</createdTime>
+<generatorID>78DF7E47-C9B3-DAC8-5F0C-3AA23FD796E2</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>5F7CDE2C-A28B-7137-618F-87FF2BDF3D3E</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0841CB04-FBB6-9532-E21E-C85AAED3B84A" name="PRESCRIPTION PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-15 04:37:16 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1FCF78E8-8819-38D8-8BDE-AC3BAFF77E07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

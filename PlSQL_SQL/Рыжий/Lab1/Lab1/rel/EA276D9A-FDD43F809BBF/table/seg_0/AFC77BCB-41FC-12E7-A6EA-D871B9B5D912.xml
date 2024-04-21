@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AFC77BCB-41FC-12E7-A6EA-D871B9B5D912" name="PRIMARY_DOCTOR_HISTORY">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>40EA2DDA-474D-1DCE-9D9D-7742056EFC4C</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Start_Date" id="88933337-BBA6-2AD9-EC39-1F792FF8089E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>6C2417B2-933E-C041-6E58-9182A5514C88</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End_Date" id="40A9694A-2B25-112B-2C09-5BDC6CD9947F">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>5C0CE456-1D4A-82E8-BAA6-CBEB1C1C87D6</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reason_for_Leaving" id="CA9324B2-7161-4073-BDD8-0CE37C95AC7E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>108576BA-197E-0A9A-0A24-226044D18E8E</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PATIENT_Patient_ID" id="8D0BB5CC-3B75-2EA0-DBAE-D586034AF91D">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>DEEA575D-315A-66DB-5796-13759F13618E</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CD73C4A0-116A-0764-402F-A5C4ED8C3E3F" referredColumn="270D0545-EEF0-4282-4A5E-4EB5D47FA96F"/>
+</associations>
+</Column>
+<Column name="DOCTOR_Doctor_ID" id="924A87C2-08DE-147A-653B-4F24CCDB32A2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>FED49E63-EF48-C58D-23FE-BED6BEB22AAF</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="54BEACE2-E891-E22D-5AD3-58BE385763AD" referredColumn="87AABD17-0501-B91A-B553-E13A47D6EBB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1D45BE00-D76C-0A16-71AE-72D7DADE317A" name="PRIMARY_DOCTOR_HISTORY_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>AF0211EF-37EB-C63D-F76F-184CA42D64EC</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="88933337-BBA6-2AD9-EC39-1F792FF8089E"/>
+<colUsage columnID="8D0BB5CC-3B75-2EA0-DBAE-D586034AF91D"/>
+<colUsage columnID="924A87C2-08DE-147A-653B-4F24CCDB32A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1122AF92-4417-101B-397C-158F80DC9974" name="PRIMARY_DOCTOR_HISTORY_PATIENT_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>BAED97D3-E539-2811-D8C7-1FF808BF2D0B</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8D0BB5CC-3B75-2EA0-DBAE-D586034AF91D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34094074-381E-16A9-68DD-E8C8FF21E09F" name="PRIMARY_DOCTOR_HISTORY_DOCTOR_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>41639B4A-FAD3-60D8-86D6-5A0017B2D511</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="924A87C2-08DE-147A-653B-4F24CCDB32A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

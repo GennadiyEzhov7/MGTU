@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1BC3A759-8C3C-9E49-AACE-3CD5D29DFEAE" containerWithKeyObject="7C8E3AB6-0883-F4F5-DD8D-43B25F050EA7" localFKIndex="97F1FC2E-7B5F-57EF-D009-CE85F04A001B" name="PRESCRIPTION_NON-REFILLABLE_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>B81DA833-BFE9-D3B2-51E4-03BAAF0296CB</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<referredTableLongName>NON-REFILLABLE</referredTableLongName>
+<arc>24110442-91A9-C857-733B-4753F9BA950D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>A28DD188-86CD-FF60-3BCF-B4A81E1E8753</referredTableID>
+<keyObject>43095BEF-CE50-4245-B92A-3F13D88210CC</keyObject>
+<referredKeyID>43095BEF-CE50-4245-B92A-3F13D88210CC</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>NON-REFILLABLE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

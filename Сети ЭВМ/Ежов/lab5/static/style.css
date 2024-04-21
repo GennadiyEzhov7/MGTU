@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    padding: 0 20px; /* Отступы с обеих сторон */
+}
+
+.div_rules{
+    width: 100%;
+}
+
+p{
+    font-size: 30px; /* Размер шрифта */
+}
+
+
+
+.div_start_button{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 10px 10%;
+
+}
+
+.button_start {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+.div_after_start{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.input_digit, .button_restart, .button_guess{
+    width: 20%;
+    height: 50px;
+}
+
+.div_game_result {
+    width: 80%;
+}
+
+.input_result{
+    width: 100%;
+    height: 50px;
+}
+

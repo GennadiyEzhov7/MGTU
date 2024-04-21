@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="088A5B77-4B50-2B99-0107-260FC2133E49" containerWithKeyObject="7C8E3AB6-0883-F4F5-DD8D-43B25F050EA7" localFKIndex="732635F0-7050-7ED6-0FEC-1D1561BE1D83" name="PRESCRIPTION_REFILLABLE_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>B4C48970-F9CC-A32C-DFE2-4DA40F3C6CF3</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<referredTableLongName>REFILLABLE</referredTableLongName>
+<arc>24110442-91A9-C857-733B-4753F9BA950D</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>90104DD5-D545-969A-B8CC-863100925621</referredTableID>
+<keyObject>FA65C527-55D1-EC55-5FB6-7439091AF619</keyObject>
+<referredKeyID>FA65C527-55D1-EC55-5FB6-7439091AF619</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>REFILLABLE_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="52A1B510-6327-14C5-333D-84DBEDAF16BF" name="Album">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>BCE41403-62B9-8691-8AE5-70F633810575</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="20AA505F-E7A8-1252-C62F-4DB770EAC029">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>2E1F5184-6044-C51E-B798-2472739D7B92</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="CC6A4584-5535-F863-FDC1-7760F035EEE8">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>CF74B8D6-2257-F4DB-2370-376B3E3A8512</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="artistId" id="F40568CB-8AF5-0114-FF6D-94186080271E">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:49:31 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F9D24235-58A2-FA4D-A262-03F811B81216" referredColumn="BF3CE2B0-92C0-047A-2ECA-046660C0B69C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="29923BA4-5312-AF08-A297-DDF63D0DF49D" name="Album_PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>A5C67AC5-1E3D-CCE1-196B-0E87F01423D9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="20AA505F-E7A8-1252-C62F-4DB770EAC029"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="721E2DBB-1344-9652-F305-9BD0E680CB51" name="Album_Artist_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:49:31 UTC</createdTime>
+<generatorID>EDA06CE0-EB71-6C1F-3D1D-B51E077F5B76</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F40568CB-8AF5-0114-FF6D-94186080271E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

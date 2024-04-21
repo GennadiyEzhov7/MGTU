@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50B6F37B-7D8C-DD1D-B65C-25B6D724AF1B" name="Artist">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>7E5D3E11-05FD-94F5-BD75-FC2231AF0EFC</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BF3CE2B0-92C0-047A-2ECA-046660C0B69C">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>C98E0407-DE94-2196-3200-BFADC07120D9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="5405ED7B-CB39-F1FD-03FE-17209FC4386E">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>C211E8B2-03F1-5BB8-2A17-C6D9033FBD9B</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="D9911FA0-40D3-1EEA-9E81-377A25129D7A">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:08:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="imageName" id="5FE2F513-D187-8FFA-4870-2E70D6E42CD2">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:08:41 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2ED3491F-C95B-3148-7492-F3C1D3DE2ED6" name="Artist_PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:56:37 UTC</createdTime>
+<generatorID>EDA06CE0-EB71-6C1F-3D1D-B51E077F5B76</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BF3CE2B0-92C0-047A-2ECA-046660C0B69C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,34 @@
+html,
+body {
+    min-height: 100%;
+    height: 100%;
+}
+
+.m-btn {
+    font-size: 20px;
+    transition: all 1s ease;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: white;
+    border-style: solid;
+    border-radius: 3px;
+    color: white;
+    border-width: 1px;
+    overflow: hidden;
+    width: 50%;
+}
+
+.m-btn:hover {
+    background-color: white;
+    color: gray;
+}
+
+.m-btn:disabled {
+    color: red;
+    border-color: red;
+    pointer-events: none;
+}
+
+.m-btn:disabled:hover {
+    color: red;
+    border-color: red;
+}

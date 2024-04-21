@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIContact class="oracle.dbtools.crest.model.businessinfo.BIContact" name="Contact_1" directorySegmentName="seg_0" id="17C7D4AC-AA2D-38C4-DAB9-C85687458364">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:08:45 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</BIContact>

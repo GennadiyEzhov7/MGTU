@@ -1,0 +1,35 @@
+domains
+   thing = book(author, title, year);
+           record(artist, album)
+   author,title,artist,album = symbol
+   year = integer
+
+predicates
+   owns(symbol, thing)
+   show_books
+   show_records
+   show_all
+   
+goal
+     clearwindow, show_books;
+     readchar(_), show_records;
+     readchar(_), show_records;
+     clearwindow, show_all.
+       
+ clauses
+   owns(smith, book("Lewis Carroll", "Symbolic Logic", 1958)).
+   owns(smith, book("Lewis Carroll", "Alice in Wonderland", 1960)).
+   owns(bill, book("J.R.R. Tolkein", "Return of the Ring", 1955)).
+   owns(bill, record("Elton John", "Ice Fair")).
+   owns(jane, book("Агата Кристи", "10 негритят", 1939)).
+   owns(jane, record ("Агата Кристи", "Опиум")).
+   
+   show_books:-
+       owns(_, book(X, _, _)), write(X), nl, fail.
+       
+   show_records:-
+       owns(X, record(Y, _)), write(X, " ", Y), nl, fail.
+       
+   show_all:-
+       readln(X),
+       owns(X, Y), write(X, " ", Y), nl, fail.

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="javascript" src="js/bootstrap.min.js" defer></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script language="javascript" src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Lab 6 editor</title>
+</head>
+
+<body>
+    <div class="container h-100">
+        <div class="d-flex flex-column align-items-center h-100 align-top">
+            <canvas id="imageEditor"></canvas>
+            <div class="row-item d-flex" style="width: 40%;">
+                <div style="margin-right: 5px;">ФИО:</div>
+                <input class="w-100" type="text" id="name" value="Дв Им От">
+            </div>
+            <div class="row-item d-flex">
+                <div style="margin-right: 5px;">Пол:</div>
+                <select name="gender" id="genderSelect">
+                    <option value="common" selected>Не выбрано</option>
+                    <option value="female">Жеский</option>
+                    <option value="male">Мужской</option>
+                </select>
+            </div>
+            <div class="row-item d-flex">
+                <div style="margin-right: 5px;">Праздник:</div>
+                <select name="holiday" id="holidaysSelect">
+                </select>
+            </div>
+            <div class="row-item">
+                <input type="button" value="Скачать" id="downloadBtn" class="btn btn-outline-light">
+            </div>
+        </div>
+    </div>
+    <div class="images">
+        <img src="./../static/placeholder1.jpg" id="placeholderImg" alt="not found">
+        <img src="./../static/CornDay.jpg" id="CornDay" alt="not found">
+        <img src="./../static/CucumberDay.jpg" id="CucumberDay" alt="not found">
+        <img src="./../static/FishFingersDay.jpg" id="FishFingersDay" alt="not found">
+        <img src="./../static/AcneDay.jpg" id="AcneDay" alt="not found">
+        <img src="./../static/AloeDay.jpg" id="AloeDay" alt="not found">
+        <img src="./../static/BearingDay.jpg" id="BearingDay" alt="not found">
+        <img src="./../static/SockDay.jpg" id="SockDay" alt="not found">
+        <img src="./../static/CottonСandyDay.jpg" id="CottonСandyDay" alt="not found">
+        <img src="./../static/BucketDay.jpg" id="BucketDay" alt="not found">
+    </div>
+</body>
+
+</html>

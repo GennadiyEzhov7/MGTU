@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4026D6AA-1C7C-2D03-1ADD-935343F5E241" name="Warehouse">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>296C76AD-08AF-CE9A-9C0D-60142B31F0AB</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="74C10C6E-62A8-838E-EF80-5A748AD4C3F5">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>FEEAD527-8AE6-8D52-30A0-BCB9E30F54AA</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="count" id="1D0F7CED-E641-F59E-1FAD-63C7D5B3B2AA">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>CBD564F8-0BB8-EA2F-42CE-38BE024D1D02</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_code" id="A7CAB13D-92CF-09A9-E4CE-A0444742E3B9">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>4A724778-3524-3CD9-490C-234D484F40D6</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Order_id" id="34B7E5AC-2759-2761-8C68-21532C90C8BC">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>7BB19413-3846-1990-F974-B301A0A6C0C9</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20B2363D-B7A3-22C6-AC51-28DA66450AEF" referredColumn="42302E6B-664E-884E-4515-F0885E441747"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D0AE0DA-F3DB-BC65-4220-1707F4569A1C" name="Warehouse_PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:56:09 UTC</createdTime>
+<generatorID>48B54873-8930-6A0D-B156-E12E0BA54127</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74C10C6E-62A8-838E-EF80-5A748AD4C3F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CC156C7-0C84-A3CC-E93F-E1BD95E78DB6" name="Warehouse__IDX">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F4DE0E6A-7E7E-F157-800B-3CC3456AD228</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="34B7E5AC-2759-2761-8C68-21532C90C8BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6E0D17-DC8D-EA2C-390E-636604484020" name="Warehouse_Order_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>F4DE0E6A-7E7E-F157-800B-3CC3456AD228</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="34B7E5AC-2759-2761-8C68-21532C90C8BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

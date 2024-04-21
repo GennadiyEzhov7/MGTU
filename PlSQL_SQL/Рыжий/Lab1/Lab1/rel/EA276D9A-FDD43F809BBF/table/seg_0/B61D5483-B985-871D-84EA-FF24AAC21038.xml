@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B61D5483-B985-871D-84EA-FF24AAC21038" name="PATIENT">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>E73C7144-32C4-0E7C-5647-7C455A363DF3</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<abbreviation>PATIENT</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Patient_ID" id="270D0545-EEF0-4282-4A5E-4EB5D47FA96F">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>F667E7F1-79E2-0777-2B98-FCC10A3504B7</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="F9990C3E-8BFB-DB1D-7165-6FABE697833E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>C3D5FEF7-2A76-B3F7-28A6-3D9618C39EDA</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Address" id="D5511A25-3F7F-F84B-EB16-6ECB28DF3211">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>8A866F42-E0D2-700D-10E7-2C91596BF21A</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Phone" id="965198C7-174B-E646-3456-BD5CE6D189AD">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>EE37E22B-25DD-2151-3A02-301DA640CC6C</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="B75E5E8E-3F49-5449-EB71-43D6DF69868F">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>5FCDBCFF-9CD9-CF71-409A-D2C98852F3AF</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_ID" id="69526B4E-2B24-2EBF-2E46-B5997475F086">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>3DE2AB43-2C63-F87F-CF4A-C2FF6DE178A4</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Insurance_Company" id="26E49348-F4D6-F66D-561C-80F1EE4C7A8E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>178CBB8F-F16D-CB42-CF35-7A5E19A2217F</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCTOR_Doctor_ID" id="522051D1-FFAA-5EFE-9B0C-BC716D4B6093">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>286954AD-9E1D-3AA6-9336-B731D853A018</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D829C6E9-4851-C053-01F8-F5FE105AB397" referredColumn="87AABD17-0501-B91A-B553-E13A47D6EBB7"/>
+</associations>
+</Column>
+<Column name="PATIENT_Patient_ID" id="798F7275-2221-5419-06E2-5E2F4FEEB54B">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>5671BF14-1D7B-92F0-C3FF-EFC1361AF64D</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC0124D3-EC42-4936-EE69-26686DF942A8" referredColumn="270D0545-EEF0-4282-4A5E-4EB5D47FA96F"/>
+</associations>
+</Column>
+<Column name="INSURANCE_Insurance_Company_ID" id="4C67EE1E-449A-88F9-5483-4C47647E1C40">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>14F92525-7E4E-7E09-408A-24E6DBBDE31F</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="011B18D6-C617-EEDB-B786-9ECFF060FCEC" referredColumn="1A8C74B6-A3EE-A1D7-11CD-A745A22F3F4C"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86C3DE70-D57F-85B4-7BE3-C263B5812780" name="PATIENT_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>0A5CD6FA-5DB4-F2BA-BB56-B3C4C451923C</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="270D0545-EEF0-4282-4A5E-4EB5D47FA96F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="85F6359E-E975-9C10-225C-AFEFFED692D3" name="PATIENT_PATIENT_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>6717B02F-4B65-AB53-5A4F-191ACB112FD1</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="798F7275-2221-5419-06E2-5E2F4FEEB54B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AF8D378F-C743-21F6-C36E-7DDD78A9BC82" name="PATIENT_INSURANCE_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>7869A01B-6A10-35B3-BD43-D233364473A7</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C67EE1E-449A-88F9-5483-4C47647E1C40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24DBDC6C-6BC3-3586-F75D-67E1C9F89069" name="PATIENT_DOCTOR_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>E17B93F0-5F9C-CDC3-B16C-335D2AA99660</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="522051D1-FFAA-5EFE-9B0C-BC716D4B6093"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

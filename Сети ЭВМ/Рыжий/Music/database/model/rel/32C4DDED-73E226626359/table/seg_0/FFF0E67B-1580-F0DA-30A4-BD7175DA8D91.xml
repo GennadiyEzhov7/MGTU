@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FFF0E67B-1580-F0DA-30A4-BD7175DA8D91" name="Session">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:56:35 UTC</createdTime>
+<generatorID>AA3D1EF7-8CD1-5F72-E496-166375D6751D</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="token" id="DD5F4553-D0B2-1CA7-2C78-8C80DA58DCA8">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:56:35 UTC</createdTime>
+<generatorID>D0294D15-9553-3DDD-2F4C-F50411663EF4</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="userLogin" id="589D79DF-97D3-86AE-56AC-D5AB5FE90C50">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:40:06 UTC</createdTime>
+<generatorID>DD6F014F-539C-EF70-D196-72C30369BC24</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D9D3A34F-6BDB-1D7E-FD8B-702648ECDD35" referredColumn="5F7F3DFD-C76F-4011-1125-38E7B9028508"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B7A0319-C5CD-8AFE-BA43-2D8BE3A4A8C5" name="Session_PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:56:35 UTC</createdTime>
+<generatorID>E90DC42B-337B-89E1-CC4D-BC124F19E265</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DD5F4553-D0B2-1CA7-2C78-8C80DA58DCA8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="679DBB5A-7C68-7051-52EA-7F06F83A0014" name="Session_User_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:40:06 UTC</createdTime>
+<generatorID>1468D4B4-6A93-9C10-AEA1-226985459758</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="589D79DF-97D3-86AE-56AC-D5AB5FE90C50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

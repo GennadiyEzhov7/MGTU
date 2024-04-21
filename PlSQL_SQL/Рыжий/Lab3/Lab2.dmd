@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Lab2" id="6381266C-A2B7-FFB9-C452-BA9E1B615A9D" version="3.5">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:53:18 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>6381266C-A2B7-FFB9-C452-BA9E1B615A9D</designId>
+</OSDM_Design>

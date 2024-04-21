@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="275BA2DB-51BE-D2F1-1730-0A9FD4A07155" name="HOSPITAL_AFFILIATION">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>966A7804-04A3-DB79-4A36-40F38F9D4FDD</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Date_of_Affiliation" id="D3024C75-2A6D-DB5C-1F11-D35A9BFADF3A">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>8521B842-EDAF-4ABE-E201-7495E289311A</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="HOSPITAL_Hospital_ID" id="5242C0AD-7B0F-574D-1FC7-FF9518218633">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>7D07C91A-3BD0-12E1-EC1F-AB6D6434551A</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5529BA65-6914-080D-4FDC-B15B7DF05906" referredColumn="01D1EF44-6089-9239-75F0-2602C8E3BDBB"/>
+</associations>
+</Column>
+<Column name="DOCTOR_Doctor_ID" id="633DEAAF-F6B2-358E-F7F4-6A0892561BDC">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>C19CA06B-37BB-ED47-3A01-65F394E580FC</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA25CD4B-5C9A-EF75-A99B-721D47D20ED3" referredColumn="87AABD17-0501-B91A-B553-E13A47D6EBB7"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="122E3995-36E9-C720-A3B5-FB4D78210037" name="HOSPITAL_AFFILIATION_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>CBBA6AD3-AFD8-155C-5C46-43319F966316</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5242C0AD-7B0F-574D-1FC7-FF9518218633"/>
+<colUsage columnID="633DEAAF-F6B2-358E-F7F4-6A0892561BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A049A95-FBEF-07A5-D660-983B2771B494" name="HOSPITAL_AFFILIATION_HOSPITAL_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>8AA1497E-CAB2-D5D2-5DB2-C1B99FCAA6EA</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5242C0AD-7B0F-574D-1FC7-FF9518218633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5B524661-368A-46BD-2DA7-878E3183D551" name="HOSPITAL_AFFILIATION_DOCTOR_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>20078C9C-00E1-C718-8216-E54168CFC503</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="633DEAAF-F6B2-358E-F7F4-6A0892561BDC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

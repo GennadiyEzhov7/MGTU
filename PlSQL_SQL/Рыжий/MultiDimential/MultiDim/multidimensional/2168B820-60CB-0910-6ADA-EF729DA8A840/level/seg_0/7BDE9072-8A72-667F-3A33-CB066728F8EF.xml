@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="Vendor" directorySegmentName="seg_0" id="7BDE9072-8A72-667F-3A33-CB066728F8EF">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 02:50:38 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>VENDOR</nameInOracleAW>
+<levelEntity>065AD02A-D209-483E-F2B3-158978E850FB</levelEntity>
+<rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+<valueBasedHierarchy>false</valueBasedHierarchy>
+<oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes">
+</oraAWAttributes>
+<levelKey>
+<attribute>FC7E1532-4F79-09EB-BE2C-F8E9D6D532C2</attribute>
+</levelKey>
+<descriptiveAttributes>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="name" id="73216CE9-D711-1FE4-6ED1-65BE94D00F5A">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:14:59 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>D05F245A-1190-0C5C-12CF-92EE09ABF6B9</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="address" id="454E4F1F-D29B-C1A3-14C2-644479604D05">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:15:04 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>0CC1F16F-052F-8CD1-6A4C-C1F0F4D48885</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="phone" id="AA57C325-A193-8A13-EB9F-4A0989DD724C">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:15:08 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>26407DAD-CAF6-C883-DD95-353413B6BF65</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+</descriptiveAttributes>
+</Level>

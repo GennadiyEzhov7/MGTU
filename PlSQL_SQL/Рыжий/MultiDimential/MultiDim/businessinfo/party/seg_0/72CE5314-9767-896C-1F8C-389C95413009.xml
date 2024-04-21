@@ -1,0 +1,6 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BIResponsibleParty class="oracle.dbtools.crest.model.businessinfo.BIResponsibleParty" name="ResParty_1" directorySegmentName="seg_0" id="72CE5314-9767-896C-1F8C-389C95413009">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:08:36 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</BIResponsibleParty>

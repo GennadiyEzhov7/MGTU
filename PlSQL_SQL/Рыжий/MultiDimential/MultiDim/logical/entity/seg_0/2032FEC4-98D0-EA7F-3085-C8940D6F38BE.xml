@@ -1,0 +1,44 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2032FEC4-98D0-EA7F-3085-C8940D6F38BE" name="t_Sale">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 01:20:06 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<typeID>2</typeID>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="time" id="4CC41A78-B293-5F11-C247-B84553380300">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 01:56:10 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="D7BE47CA-511C-6B78-AD06-6961F952F535">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:30:28 UTC</createdTime>
+<generatorID>B0F34DE0-15DA-16F3-7BFB-09C8B080539D</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<referedAttribute>FEEC557E-A590-6A8E-0A45-14F83C2C0DF3</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

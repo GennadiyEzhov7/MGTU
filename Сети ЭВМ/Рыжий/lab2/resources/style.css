@@ -1,0 +1,36 @@
+h2, h4{
+    display: flex;
+    color: red;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+}
+
+.symDiv {
+    display: inline-block;
+    
+    font-size: 25px;
+}
+
+.restartButton {
+    width: 100%;
+}
+
+.guessButton {
+    width: 100%;
+}
+
+.centerDiv{
+    display: flex;
+}
+
+.rangeInput {
+    width: 80px;
+    margin: 0 5px;
+}
+
+.mainContainer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

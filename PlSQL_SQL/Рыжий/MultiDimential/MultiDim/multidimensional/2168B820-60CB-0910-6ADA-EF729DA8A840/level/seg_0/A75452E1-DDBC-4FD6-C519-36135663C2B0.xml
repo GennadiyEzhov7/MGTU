@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="Warehouse" directorySegmentName="seg_0" id="A75452E1-DDBC-4FD6-C519-36135663C2B0">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:01:32 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>WAREHOUSE</nameInOracleAW>
+<levelEntity>296C76AD-08AF-CE9A-9C0D-60142B31F0AB</levelEntity>
+<rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+<valueBasedHierarchy>false</valueBasedHierarchy>
+<oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes">
+</oraAWAttributes>
+<levelKey>
+<attribute>FEEAD527-8AE6-8D52-30A0-BCB9E30F54AA</attribute>
+</levelKey>
+<descriptiveAttributes>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="productCode" id="D420C275-5BE5-D783-720A-148B9ABF1903">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:17:32 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>4A724778-3524-3CD9-490C-234D484F40D6</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="productCount" id="50D900D2-4E4E-77FB-3DC4-A37674FF5338">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:17:45 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>CBD564F8-0BB8-EA2F-42CE-38BE024D1D02</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+</descriptiveAttributes>
+</Level>

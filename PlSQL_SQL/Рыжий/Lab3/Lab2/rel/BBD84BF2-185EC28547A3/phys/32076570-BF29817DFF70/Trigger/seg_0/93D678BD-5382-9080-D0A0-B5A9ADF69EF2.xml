@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="Trg5" directorySegmentName="seg_0" id="93D678BD-5382-9080-D0A0-B5A9ADF69EF2">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 05:24:30 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<actions>INSERT, UPDATE</actions>
+<body><![CDATA[INSERT INTO t_journal (Warehouse_id, name, change_count, time) VALUES (:new.id,  USER, :new.count - nvl(:old.count, 0), CURRENT_DATE)]]></body>
+<triggerTime>BEFORE</triggerTime>
+<table>4026D6AA-1C7C-2D03-1ADD-935343F5E241</table>
+</TriggerOraclev10g>

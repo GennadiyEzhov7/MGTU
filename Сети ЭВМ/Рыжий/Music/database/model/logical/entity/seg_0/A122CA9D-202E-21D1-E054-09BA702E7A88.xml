@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A122CA9D-202E-21D1-E054-09BA702E7A88" name="Song">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:33:18 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F74E0C84-D29D-DF4E-1799-42814E231F8A">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:34:08 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="F7856CAB-AB9F-BA18-4886-D30FF8886F0F">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:37:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genre" id="F2270237-AF2D-8F79-414C-6780C23E49C7">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:38:55 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="61AE612F-A705-CA7D-8250-580EA6946424">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:30:56 UTC</createdTime>
+<generatorID>96053EE3-BC03-7791-DE0B-91343252EA78</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>2E1F5184-6044-C51E-B798-2472739D7B92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC8D30EF-701A-4A54-ED13-093F6A98C3AE" name="Song PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:43:11 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F74E0C84-D29D-DF4E-1799-42814E231F8A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

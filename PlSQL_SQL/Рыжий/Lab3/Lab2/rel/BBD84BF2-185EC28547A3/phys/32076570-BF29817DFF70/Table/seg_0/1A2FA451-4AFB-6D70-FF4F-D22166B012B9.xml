@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Order" directorySegmentName="seg_0" id="1A2FA451-4AFB-6D70-FF4F-D22166B012B9">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id" id="42302E6B-664E-884E-4515-F0885E441747">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="count" id="6D23B06B-EB9B-B834-8151-F4906BCAEDA6">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cost" id="720CD72B-7A99-4D20-4330-EA1C287FED83">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Product_code" id="8FF0E308-20C0-B00C-4FAB-78790FF59D73">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="Order__IDXv1" id="0C0E38BB-B6C0-7405-849B-47218B8F5064">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Order_Product_FK" id="F5157FE4-5864-B316-20D6-6E99F810B01C">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Order_PK" id="BB0FB19E-888F-26CF-BCA3-2B91CBF2FB5E">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B50B3D3-481B-4B69-F5C2-B6DBF6D9156E" name="OFFICE VISIT">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 03:44:37 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Date of Visit" id="002FDA44-3A09-6C0C-A5BC-F2070EB8B37C">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 03:45:16 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Symptoms" id="2C92C75C-AFAF-7E86-1E68-0A3A90ECBA77">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 03:45:25 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient ID1" id="19FAA651-6471-D50F-23BF-678CE234A840">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:09:00 UTC</createdTime>
+<generatorID>712FB031-399E-430D-ADF3-1DE4E118484D</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>F667E7F1-79E2-0777-2B98-FCC10A3504B7</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor ID1" id="7C99B3ED-C138-4CF4-A298-4A7CE18D5E47">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:15:16 UTC</createdTime>
+<generatorID>010C06B5-14C5-C7AF-5BDB-C5F1018CA91C</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>450AF4AF-B34E-9D64-583C-3674D3A8982F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="10088F28-C9F4-BD99-BB8E-C9668228A9F2" name="OFFICE VISIT PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 03:45:44 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>002FDA44-3A09-6C0C-A5BC-F2070EB8B37C</attributeRef>
+<attributeRef>19FAA651-6471-D50F-23BF-678CE234A840</attributeRef>
+<attributeRef>7C99B3ED-C138-4CF4-A298-4A7CE18D5E47</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

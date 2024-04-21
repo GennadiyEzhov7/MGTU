@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="296C76AD-08AF-CE9A-9C0D-60142B31F0AB" name="Warehouse">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:53:49 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FEEAD527-8AE6-8D52-30A0-BCB9E30F54AA">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:55:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="count" id="CBD564F8-0BB8-EA2F-42CE-38BE024D1D02">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:03:13 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="code" id="619E53E2-C190-F414-8B82-34807CF8D085">
+<createdBy>user372-4</createdBy>
+<createdTime>2022-04-15 05:37:17 UTC</createdTime>
+<generatorID>205DC343-FD92-F57B-6DD8-79B2A4592C8C</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<referedAttribute>818A0DBE-951C-FA37-D175-0869BEE2982C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order id" id="379A6215-C094-02DE-2CF6-6E41798FA4CA">
+<createdBy>user372-4</createdBy>
+<createdTime>2022-04-15 05:40:54 UTC</createdTime>
+<generatorID>6BD121EE-C1EC-1EF2-2EDD-C1BFB637D500</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Product code" id="4A724778-3524-3CD9-490C-234D484F40D6">
+<createdBy>user372-4</createdBy>
+<createdTime>2022-04-15 05:40:54 UTC</createdTime>
+<generatorID>205DC343-FD92-F57B-6DD8-79B2A4592C8C</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<referedAttribute>818A0DBE-951C-FA37-D175-0869BEE2982C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="48B54873-8930-6A0D-B156-E12E0BA54127" name="Warehouse PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:55:33 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FEEAD527-8AE6-8D52-30A0-BCB9E30F54AA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

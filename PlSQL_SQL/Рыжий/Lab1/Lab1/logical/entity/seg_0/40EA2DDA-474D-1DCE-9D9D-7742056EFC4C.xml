@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40EA2DDA-474D-1DCE-9D9D-7742056EFC4C" name="PRIMARY DOCTOR HISTORY">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:42:01 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Start Date" id="6C2417B2-933E-C041-6E58-9182A5514C88">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:42:15 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="End Date" id="5C0CE456-1D4A-82E8-BAA6-CBEB1C1C87D6">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:42:23 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Reason for Leaving" id="108576BA-197E-0A9A-0A24-226044D18E8E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:42:34 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Patient ID" id="DEEA575D-315A-66DB-5796-13759F13618E">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:43:43 UTC</createdTime>
+<generatorID>BAED97D3-E539-2811-D8C7-1FF808BF2D0B</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>F667E7F1-79E2-0777-2B98-FCC10A3504B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Doctor ID" id="FED49E63-EF48-C58D-23FE-BED6BEB22AAF">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:47:29 UTC</createdTime>
+<generatorID>41639B4A-FAD3-60D8-86D6-5A0017B2D511</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="true"/>
+</engineerTo>
+<referedAttribute>450AF4AF-B34E-9D64-583C-3674D3A8982F</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AF0211EF-37EB-C63D-F76F-184CA42D64EC" name="PRIMARY DOCTOR HISTORY PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-02-22 04:42:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="EA276D9A-C42D-D46C-64C6-FDD43F809BBF" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6C2417B2-933E-C041-6E58-9182A5514C88</attributeRef>
+<attributeRef>DEEA575D-315A-66DB-5796-13759F13618E</attributeRef>
+<attributeRef>FED49E63-EF48-C58D-23FE-BED6BEB22AAF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

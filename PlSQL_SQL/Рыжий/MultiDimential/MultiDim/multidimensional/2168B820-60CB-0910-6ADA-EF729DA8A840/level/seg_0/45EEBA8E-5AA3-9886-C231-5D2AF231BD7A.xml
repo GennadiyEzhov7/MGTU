@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="Sale_time" directorySegmentName="seg_0" id="45EEBA8E-5AA3-9886-C231-5D2AF231BD7A">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 02:54:59 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>SALE_TIME</nameInOracleAW>
+<levelEntity>2032FEC4-98D0-EA7F-3085-C8940D6F38BE</levelEntity>
+<rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+<valueBasedHierarchy>false</valueBasedHierarchy>
+<oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes">
+</oraAWAttributes>
+<levelKey>
+<attribute>D7BE47CA-511C-6B78-AD06-6961F952F535</attribute>
+<attribute>4CC41A78-B293-5F11-C247-B84553380300</attribute>
+</levelKey>
+</Level>

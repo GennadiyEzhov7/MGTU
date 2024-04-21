@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Product Vendor FK" directorySegmentName="seg_0" id="B6637387-F3E2-8EF9-2606-56FA208D2699">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:05:45 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<sourcePk>D1CF71DF-9017-4FAA-2ACA-4C1413128804</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>065AD02A-D209-483E-F2B3-158978E850FB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>749ACD16-51D9-2604-3C7D-1D18D8E8065C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

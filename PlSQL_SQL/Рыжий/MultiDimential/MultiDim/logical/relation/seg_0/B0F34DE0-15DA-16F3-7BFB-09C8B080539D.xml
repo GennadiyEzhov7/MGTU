@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_22" directorySegmentName="seg_0" id="B0F34DE0-15DA-16F3-7BFB-09C8B080539D">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:30:28 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<sourcePk>37773AB5-B6DC-AD42-6978-3130A335EAB2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9A68F2E-9F08-74A2-473B-7CC3B2668ED4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2032FEC4-98D0-EA7F-3085-C8940D6F38BE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,41 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="Vendor" directorySegmentName="seg_0" id="233C7590-D5F1-9AA4-8F42-EBC47F614E74">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="phone" id="37F5AA3D-B9AF-55C8-2F13-3350AB842A65">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="name" id="63488DAD-1BED-8EFD-A28A-373FB81008EE">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id" id="B40F06CD-32ED-1EA7-3B81-C1152DA781B3">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="address" id="C8986003-7454-7EDA-A6F6-8973A22D0651">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Vendor_PK" id="B07B9753-D918-78D1-AECD-FEE52776762D">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

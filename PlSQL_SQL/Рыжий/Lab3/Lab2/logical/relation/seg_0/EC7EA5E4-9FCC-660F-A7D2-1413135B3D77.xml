@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sale Product FK" directorySegmentName="seg_0" id="EC7EA5E4-9FCC-660F-A7D2-1413135B3D77">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:00:51 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<sourcePk>37773AB5-B6DC-AD42-6978-3130A335EAB2</sourcePk>
+<targetPk>D46BE33E-91B6-DB9F-5B46-CA518ACEA616</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A9A68F2E-9F08-74A2-473B-7CC3B2668ED4</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>749ACD16-51D9-2604-3C7D-1D18D8E8065C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

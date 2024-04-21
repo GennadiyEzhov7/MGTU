@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F5FF8A5B-6C99-96D3-60F1-F34557CD6BE9" name="t_Sale">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>2032FEC4-98D0-EA7F-3085-C8940D6F38BE</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="time" id="D3870366-E973-B49E-C6F7-A34BB7267C34">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>4CC41A78-B293-5F11-C247-B84553380300</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sale_id" id="1A64001E-AB8E-A711-C1E9-FE1B54CA0B28">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>D7BE47CA-511C-6B78-AD06-6961F952F535</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FA4DD2F-417C-F3A6-E48F-DEA2D69FCA1F" referredColumn="FC2A480F-C9FB-844A-FFDA-747C4CCE750E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="444DFBC5-36AD-E00A-95C6-228D6497010C" name="t_Sale_Sale_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>B0F34DE0-15DA-16F3-7BFB-09C8B080539D</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A64001E-AB8E-A711-C1E9-FE1B54CA0B28"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="233C7590-D5F1-9AA4-8F42-EBC47F614E74" name="Vendor">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>065AD02A-D209-483E-F2B3-158978E850FB</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="B40F06CD-32ED-1EA7-3B81-C1152DA781B3">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>FC7E1532-4F79-09EB-BE2C-F8E9D6D532C2</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="63488DAD-1BED-8EFD-A28A-373FB81008EE">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>D05F245A-1190-0C5C-12CF-92EE09ABF6B9</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="address" id="C8986003-7454-7EDA-A6F6-8973A22D0651">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>0CC1F16F-052F-8CD1-6A4C-C1F0F4D48885</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="37F5AA3D-B9AF-55C8-2F13-3350AB842A65">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>26407DAD-CAF6-C883-DD95-353413B6BF65</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B07B9753-D918-78D1-AECD-FEE52776762D" name="Vendor_PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>D1CF71DF-9017-4FAA-2ACA-4C1413128804</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B40F06CD-32ED-1EA7-3B81-C1152DA781B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

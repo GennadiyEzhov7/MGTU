@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="836865E8-2B18-CBEC-12BC-F51026AA6E6B" name="LIKED_SONGS">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:00:05 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="userLogin" id="783D2716-0733-7FA1-8F9E-6523501520DE">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:01:22 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="450890E8-604B-352A-BABD-23E10D04A101" referredColumn="5F7F3DFD-C76F-4011-1125-38E7B9028508"/>
+</associations>
+</Column>
+<Column name="songId" id="84DF3FFF-4B53-0F42-8C3B-8010EDE306F4">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:03:36 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2D7C77A-BDD5-6BB3-1EE1-9BA0B220F549" referredColumn="5A391C79-D5CF-3F39-62AA-D8DDA4AAF6E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="36ACEF03-6643-F579-05FF-59200E1D576E" name="LIKED_SONGS_User_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:01:22 UTC</createdTime>
+<generatorID>5A4570F6-9A1B-4989-F8A9-5E59C8552CF9</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="783D2716-0733-7FA1-8F9E-6523501520DE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9D5DEE8D-6AFF-3CEC-D8B0-B716A4DD1FD9" name="LIKED_SONGS_Song_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-07 13:03:36 UTC</createdTime>
+<generatorID>FC8D30EF-701A-4A54-ED13-093F6A98C3AE</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="84DF3FFF-4B53-0F42-8C3B-8010EDE306F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

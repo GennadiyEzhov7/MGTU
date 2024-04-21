@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="t_Order" directorySegmentName="seg_0" id="234082BB-A12B-3FEF-92F5-69420874B4A5">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="end" id="1F7BFD33-7415-890B-8422-858A4810889F">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="start" id="814C908E-05EA-E179-FA28-03D49BAF5D91">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="Order_id" id="F4230323-028A-1521-75D0-9D1FBE1F4DB1">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="t_Order_Order_FK" id="2685F03B-54D7-ED15-B7EC-29D4A9442F39">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 03:04:17 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+</TableProxyOraclev11g>

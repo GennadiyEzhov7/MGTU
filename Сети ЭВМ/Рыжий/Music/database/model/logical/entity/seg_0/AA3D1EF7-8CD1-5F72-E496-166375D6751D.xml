@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AA3D1EF7-8CD1-5F72-E496-166375D6751D" name="Session">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:44:46 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="token" id="D0294D15-9553-3DDD-2F4C-F50411663EF4">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:45:13 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login" id="DD6F014F-539C-EF70-D196-72C30369BC24">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 03:37:33 UTC</createdTime>
+<generatorID>1468D4B4-6A93-9C10-AEA1-226985459758</generatorID>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<referedAttribute>13392B0C-8927-2A93-8055-765D9DBB771D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E90DC42B-337B-89E1-CC4D-BC124F19E265" name="Session PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-03 02:50:00 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="false"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,35 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Level class="oracle.dbtools.crest.model.design.multidimensional.Level" name="Order" directorySegmentName="seg_0" id="FF49DD73-7138-4287-2E7F-EDCA21E824CE">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:02:40 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>ORDER</nameInOracleAW>
+<levelEntity>C803A1DE-B5F5-D593-9036-36C30B1684F3</levelEntity>
+<rootIdentification>ParentIsBlankSelfOrMissing</rootIdentification>
+<valueBasedHierarchy>false</valueBasedHierarchy>
+<oraAWAttributes class="oracle.dbtools.crest.model.design.multidimensional.Level$OraAWAttributes">
+</oraAWAttributes>
+<levelKey>
+<attribute>E177D3A0-9025-CC26-8D4F-9728FD5F9410</attribute>
+</levelKey>
+<descriptiveAttributes>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="count" id="7C59A226-0CDA-FC99-66D2-7A416E8FE305">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:20:54 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>BE6C34C9-4182-5648-A3F7-3FD044044A27</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+<descrAttribute class="oracle.dbtools.crest.model.design.multidimensional.SlowChangingAttribute" name="cost" id="E7A590F0-2EC3-00FC-2E02-73D782BD342A">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 03:21:00 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<attribute>C48D2E18-79D0-5041-3D14-26A73422DA53</attribute>
+<classification>USER</classification>
+<indexed>false</indexed>
+<type>NONE</type>
+</descrAttribute>
+</descriptiveAttributes>
+</Level>

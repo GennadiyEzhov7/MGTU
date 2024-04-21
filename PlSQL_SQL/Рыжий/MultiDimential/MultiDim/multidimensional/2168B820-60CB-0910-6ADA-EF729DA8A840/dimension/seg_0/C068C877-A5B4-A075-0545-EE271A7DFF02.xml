@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Dimension class="oracle.dbtools.crest.model.design.multidimensional.Dimension" name="time_dim" directorySegmentName="seg_0" id="C068C877-A5B4-A075-0545-EE271A7DFF02">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-09 02:00:12 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nameInOracleAW>TIME_DIM</nameInOracleAW>
+<timeDimension>true</timeDimension>
+</Dimension>

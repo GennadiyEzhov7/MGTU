@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BCE41403-62B9-8691-8AE5-70F633810575" name="Album">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:46:04 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="2E1F5184-6044-C51E-B798-2472739D7B92">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:46:20 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="CF74B8D6-2257-F4DB-2370-376B3E3A8512">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:50:16 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5C67AC5-1E3D-CCE1-196B-0E87F01423D9" name="Album PK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-06-02 23:46:25 UTC</createdTime>
+<ownerDesignName>model</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="32C4DDED-942C-4EDC-C074-73E226626359" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E1F5184-6044-C51E-B798-2472739D7B92</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,249 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7C8E3AB6-0883-F4F5-DD8D-43B25F050EA7" name="PRESCRIPTION">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>E0C3CE34-59FF-119D-5B81-0817964B44C8</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<abbreviation>PRESCRIPTION</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RX_ID" id="60447767-2F70-9DB4-E39F-090B2E0784B7">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>1FCF78E8-8819-38D8-8BDE-AC3BAFF77E07</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date_Prescribed" id="D5DFC5F6-A1EF-0092-81B8-99926CDA8B99">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>BB4139DD-36B6-9413-88FF-5C3521C2B950</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Dosage" id="D4FD3554-D313-86C0-D524-AFD2E8E1B5D0">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>0961F1B1-DB24-9162-747C-712FFF3FE799</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duraton" id="DC81BE3D-D9FF-A4B5-64BC-3562457436E2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>967FEE50-F13A-34EE-06C0-DD58476360CB</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Refillable" id="95884291-F164-FF44-1C29-83E339670D1B">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>56F6D81C-4AB6-CA51-F6AF-4B5DDA385BC3</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Drug_Name" id="681E037E-76D8-D5BD-3031-D0FFAF0DF3D1">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>D05D5081-4F57-CBFE-1038-9469026AF1EA</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Side_Effects" id="09B3562C-7260-4DD5-54E1-C6286001D82A">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>303451A2-E899-29AB-ADF6-68C6AE0436F2</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Benefits" id="E8DC9110-518D-3511-D339-0DBEABA05BBB">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>8E633E81-1336-2CCB-3AB4-394333D019A9</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DOCTOR_Doctor_ID" id="315C18D3-EEBF-7060-E521-99605AB257D9">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>A4350EFA-D115-4829-995E-A90FE93EA63F</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7276522F-E0A6-700B-485F-622EC2DC4069" referredColumn="87AABD17-0501-B91A-B553-E13A47D6EBB7"/>
+</associations>
+</Column>
+<Column name="PATIENT_Patient_ID" id="785CC81A-04DE-5BD8-119F-E2713286534F">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>7A74CBC4-ED60-8A68-0756-E040B787F1E2</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C62FAE07-6A86-E88D-4B01-F6F2FA3AC65E" referredColumn="270D0545-EEF0-4282-4A5E-4EB5D47FA96F"/>
+</associations>
+</Column>
+<Column name="DRUG_Drug_ID" id="ABFB3B73-F8BC-FEF1-98B6-6FB08CD38CF2">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>A57F8320-9751-AB26-B5C0-34F320086F42</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9435B43F-5482-6F29-A47E-D24F5E91FE17" referredColumn="17961137-C6B7-1AC9-A16F-742FE690A31E"/>
+</associations>
+</Column>
+<Column name="REFILLABLE_REFILLABLE_ID" id="013E95C4-527D-60FC-5BE7-85054E49043A">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="088A5B77-4B50-2B99-0107-260FC2133E49" referredColumn="7D679BBA-38F2-092E-CC16-B90ADEDE99E7"/>
+</associations>
+</Column>
+<Column name="NON-REFILLABLE_ID" id="7672DEA7-3885-0E7B-000D-E72B6201BC69">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<ownerDesignName>Lab1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC3A759-8C3C-9E49-AACE-3CD5D29DFEAE" referredColumn="E659324F-E137-603D-C0E3-19968E831903"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2227363B-E42B-AF37-9CCC-DFF99217C105" name="PRESCRIPTION_PK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>0841CB04-FBB6-9532-E21E-C85AAED3B84A</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60447767-2F70-9DB4-E39F-090B2E0784B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FF1FF3F3-FA36-521E-8414-25E3EF8DAC14" name="PRESCRIPTION_PATIENT_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>D73BC417-F35F-EC73-E780-8059789950A7</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="785CC81A-04DE-5BD8-119F-E2713286534F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4F9D8E1-217E-5F9F-121A-7BB327386732" name="PRESCRIPTION_DRUG_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>78DF7E47-C9B3-DAC8-5F0C-3AA23FD796E2</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ABFB3B73-F8BC-FEF1-98B6-6FB08CD38CF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="732635F0-7050-7ED6-0FEC-1D1561BE1D83" name="PRESCRIPTION_REFILLABLE_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>B4C48970-F9CC-A32C-DFE2-4DA40F3C6CF3</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="013E95C4-527D-60FC-5BE7-85054E49043A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97F1FC2E-7B5F-57EF-D009-CE85F04A001B" name="PRESCRIPTION_NON-REFILLABLE_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>B81DA833-BFE9-D3B2-51E4-03BAAF0296CB</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7672DEA7-3885-0E7B-000D-E72B6201BC69"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7C87699-60A9-77AA-5627-4E23EC18F4AF" name="PRESCRIPTION_DOCTOR_FK">
+<createdBy>user372-2</createdBy>
+<createdTime>2022-03-01 03:54:22 UTC</createdTime>
+<generatorID>40C4C279-690B-4EC6-E0F1-DC008449277B</generatorID>
+<ownerDesignName>Lab1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="315C18D3-EEBF-7060-E521-99605AB257D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

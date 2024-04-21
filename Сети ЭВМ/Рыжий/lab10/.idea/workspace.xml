@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bc4d1343-e599-420a-9e0a-844fcb08b6ff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Базы SQL/Lab3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Flat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Lab4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Office.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Labs/src/main/java/Lab4_5/Technical.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Лабораторная 1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Лабораторная 2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Метрология/Лабораторная 3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/AA3D1EF7-8CD1-5F72-E496-166375D6751D.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/logical/relation/seg_0/1468D4B4-6A93-9C10-AEA1-226985459758.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/logical/relation/seg_0/96053EE3-BC03-7791-DE0B-91343252EA78.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/2D8B656F-5D06-D11F-0A9B-9741DF8CE483.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/373C8607-86D7-6F61-CD2F-4C6DDB468A26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/D9D3A34F-6BDB-1D7E-FD8B-702648ECDD35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/F9D24235-58A2-FA4D-A262-03F811B81216.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/FFF0E67B-1580-F0DA-30A4-BD7175DA8D91.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/com/mvarlamov/Music/MusicApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/com/mvarlamov/Music/dao/Artist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/java/com/mvarlamov/Music/dao/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Music/src/test/java/com/mvarlamov/Music/MusicApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/lab10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.vs/lab7/config/applicationhost.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/.vs/lab7/v16/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/SQLQuery1.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/App_Data/usersDB.mdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/App_Data/usersDB_log.ldf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Login.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Login.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Login.aspx.designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Logout.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Logout.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Logout.aspx.designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Properties/AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Registration.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Registration.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Registration.aspx.designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/SingGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/UserPage.aspx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/UserPage.aspx.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/UserPage.aspx.designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Web.Debug.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Web.Release.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/Web.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/lab7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/lab7.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/lab7.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.Managed.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csi.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/csi.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/vbc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/bin/roslyn/vbc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/dbo.Table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/lab7.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/lab7.csproj.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/obj/Debug/lab7.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/lab7/packages.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/.signature.p7s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1.nupkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/app.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net45/web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/app.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.install.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/content/net46/web.config.uninstall.xdt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.DiaSymReader.Native.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/csi.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/Roslyn45/vbc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Build.Tasks.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CSharp.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.Scripting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.VisualBasic.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.amd64.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.DiaSymReader.Native.x86.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Managed.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/Microsoft.Win32.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.AppContext.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Collections.Immutable.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Console.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.FileVersionInfo.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Diagnostics.StackTrace.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Globalization.Calendars.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.ZipFile.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.Compression.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.IO.FileSystem.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Http.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Net.Sockets.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Reflection.Metadata.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Runtime.InteropServices.RuntimeInformation.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Algorithms.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Encoding.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Security.Cryptography.X509Certificates.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Text.Encoding.CodePages.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Threading.Tasks.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.ValueTuple.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.ReaderWriter.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.XDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XPath.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/System.Xml.XmlDocument.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/VBCSCompiler.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/csi.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.exe.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/RoslynLatest/vbc.rsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/install.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lab7/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1/tools/net45/uninstall.ps1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model.dmd" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model.dmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/2547475D-30BE-01EF-EC11-2F60659A1D13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/2547475D-30BE-01EF-EC11-2F60659A1D13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/7E5D3E11-05FD-94F5-BD75-FC2231AF0EFC.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/7E5D3E11-05FD-94F5-BD75-FC2231AF0EFC.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/A122CA9D-202E-21D1-E054-09BA702E7A88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/A122CA9D-202E-21D1-E054-09BA702E7A88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/BCE41403-62B9-8691-8AE5-70F633810575.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/logical/entity/seg_0/BCE41403-62B9-8691-8AE5-70F633810575.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/relation/seg_0/5739064D-D106-6746-63C4-7635F6C6E69D.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/relation/seg_0/5F9202F3-FA55-592F-BC09-B5F82E1C385B.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/relation/seg_0/F4373F9D-46A3-314E-4675-D754148E4C95.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/logical/subviews/48E45A48-FC0B-213F-B2DA-8E886A0D5D1B.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/logical/subviews/48E45A48-FC0B-213F-B2DA-8E886A0D5D1B.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/mapping/DeletedMap_RM32C4DDED-942C-4EDC-C074-73E226626359.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/mapping/DeletedMap_RM32C4DDED-942C-4EDC-C074-73E226626359.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/mapping/ExtendedMap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/mapping/ExtendedMap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/mapping/ExtendedMap_RM32C4DDED-942C-4EDC-C074-73E226626359.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/mapping/ExtendedMap_RM32C4DDED-942C-4EDC-C074-73E226626359.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rdbms/model_RDBMSSites.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rdbms/model_RDBMSSites.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/99DFA5DA-69C6-B6FB-5DFC-A688E35E9E24.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/BD6967A7-8701-E912-22B2-1F600B9D0D41.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/foreignkey/seg_0/EFFBFDBC-4E09-2C35-4FE6-69F56B3B0E17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/subviews/D2AAE325-97ED-0AEF-A69D-3CBFE8BCC9B2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/subviews/D2AAE325-97ED-0AEF-A69D-3CBFE8BCC9B2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/1214528A-618C-3E1E-204A-C88F0869914F.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/1214528A-618C-3E1E-204A-C88F0869914F.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/50B6F37B-7D8C-DD1D-B65C-25B6D724AF1B.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/50B6F37B-7D8C-DD1D-B65C-25B6D724AF1B.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/52A1B510-6327-14C5-333D-84DBEDAF16BF.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/52A1B510-6327-14C5-333D-84DBEDAF16BF.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/61FCFAD1-F37D-F0DB-4D9B-9877E161F4E7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Music/database/model/rel/32C4DDED-73E226626359/table/seg_0/61FCFAD1-F37D-F0DB-4D9B-9877E161F4E7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab4/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/../lab4/src/router.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/lab10">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2ADdbiINyDUXkMR4FLy3yi3Bzyd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/maxim/Std/6 семестр/Сети ЭВМ/lab10"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc4d1343-e599-420a-9e0a-844fcb08b6ff" name="Changes" comment="" />
+      <created>1654548162449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1654548162449</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

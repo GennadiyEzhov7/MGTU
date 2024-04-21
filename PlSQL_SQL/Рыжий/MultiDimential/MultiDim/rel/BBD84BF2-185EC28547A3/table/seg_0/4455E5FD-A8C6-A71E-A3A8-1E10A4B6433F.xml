@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4455E5FD-A8C6-A71E-A3A8-1E10A4B6433F" name="t_Journal">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>0E1E0852-0E34-FB41-7938-BC3A60FC7E15</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Warehouse_id" id="9CA8F74E-1612-9EEA-155A-550B8F3CA5D6">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>B799A9D1-2F2C-6A28-6244-ACB93C16BB11</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="14183A53-B5D5-27A0-24E4-6565D17CB72D" referredColumn="74C10C6E-62A8-838E-EF80-5A748AD4C3F5"/>
+</associations>
+</Column>
+<Column name="name" id="0E5365C9-B50C-4C2B-66AA-5A8FC4A8BF2E">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>FF8E5762-B6DB-CABA-3F4B-ED8ED8BD9B1D</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="change_count" id="2618DF4C-220D-F67E-9D98-D695B19671FD">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>9307F0F2-C61E-9A34-4FA2-69D1811BDFF8</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="time" id="4530E3D0-3E86-CFF6-DD08-08352A62FF9C">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>846454EE-6C79-985C-2C7B-A05229A05DB0</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="129308F4-EB70-113F-1C0B-34DD70AF033C" name="t_Journal_Warehouse_FK">
+<createdBy>maxim</createdBy>
+<createdTime>2022-05-13 02:35:29 UTC</createdTime>
+<generatorID>62D9A45D-A910-2F8D-92C4-2E560491AC50</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9CA8F74E-1612-9EEA-155A-550B8F3CA5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

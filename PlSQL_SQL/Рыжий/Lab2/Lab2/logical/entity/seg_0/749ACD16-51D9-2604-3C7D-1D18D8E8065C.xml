@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="749ACD16-51D9-2604-3C7D-1D18D8E8065C" name="Product">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:53:54 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="code" id="818A0DBE-951C-FA37-D175-0869BEE2982C">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:54:09 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="9B59B01A-6C21-E1E8-588B-D5AD7D295CEE">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:54:13 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vendor id" id="D51AB005-6914-C32E-6E59-72FB2BA7DA87">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:05:45 UTC</createdTime>
+<generatorID>B6637387-F3E2-8EF9-2606-56FA208D2699</generatorID>
+<ownerDesignName>Lab2</ownerDesignName>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="true"/>
+</engineerTo>
+<referedAttribute>FC7E1532-4F79-09EB-BE2C-F8E9D6D532C2</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D46BE33E-91B6-DB9F-5B46-CA518ACEA616" name="Product PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 12:54:12 UTC</createdTime>
+<ownerDesignName>Lab2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BBD84BF2-C673-D383-11E3-185EC28547A3" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>818A0DBE-951C-FA37-D175-0869BEE2982C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

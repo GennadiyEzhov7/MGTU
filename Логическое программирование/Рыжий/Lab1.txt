@@ -1,0 +1,111 @@
+ Почему bob напечатан два раза, а liz один?
+ - Потому что в коде были описаны следующие утверждения:
+ 	p(mary,bob).
+ 	p(mary, beth).
+ 	p(tom, beth).
+ 	p(tom, bob).
+ 	p(tom, liz).
+ Предикат sister(X,Y) находит общего родителя для X и Y. А так как для Боба и Бэт родителями указаны Мэри и Том, то предикат Sister выводит результат (Боб) сначала по общему родителю Мэри, а потом по общему родителю Том. По этой же причине Лиз выводится только один раз, так как для нее указан лишь 1 общий с Бэт родитель - Том.
+
+==Код программы==
+
+trace p,sister
+
+predicates
+  p(symbol,symbol)
+  fem(symbol)
+  male(symbol)
+  
+  mother(symbol,symbol)
+  grandmother(symbol,symbol)
+  father(symbol,symbol)
+  grandfather(symbol,symbol)
+  sister(symbol,symbol)
+  bro(symbol,symbol)
+  aunt(symbol,symbol)
+  uncle(symbol,symbol)
+  niece(symbol,symbol)
+  nephew(symbol,symbol)
+  ancestor(symbol,symbol)
+  
+ 
+ goal
+  sister(beth,X),write(X),nl,fail. 
+
+clauses
+ p(mary,bob).         
+ p(mary,beth).
+ p(tom,beth).
+ p(tom,bob).
+ p(tom,liz).
+ p(bob,ann).
+ p(bob,pat).
+ p(pat,jim).
+ 
+ fem(mary).              
+ fem(beth).
+ fem(liz).
+ fem(ann).
+ fem(pat).
+ 
+ male(tom).             
+ male(bob).
+ male(jim).
+
+ father(X,Y):- %Отец
+       p(X,Y),
+       male(X).
+ 
+ grandfather(X,Y):- %Дедушка
+       p(X,Z),
+       p(Z,Y),
+       male(X).
+       
+ bro(X,Y):- %Брат
+       p(Z,X),
+       p(Z,Y),
+       male(X),
+       X<>Y.
+ 
+ uncle(X,Y):- %Дядя
+       bro(X,Z),
+       p(Z,Y).
+ 
+ nephew(X,Y):-  %Племянник
+       uncle(Y,X),
+       male(X).
+ nephew(X,Y):-
+       aunt(Y,X),
+       male(X).
+ 
+ mother(X,Y):-           
+       p(X,Y),
+       fem(X).
+ 
+ grandmother(X,Y):-     
+       p(X,Z),
+       p(Z,Y),  
+       fem(X).
+          
+ sister(X,Y):-           
+       p(Z,X),
+       p(Z,Y),
+       fem(X),
+       X<>Y .    
+
+ aunt(X,Y):-             
+       sister(X,Z),
+       p(Z,Y).
+
+ niece(X,Y):-            
+       aunt(Y,X),
+       fem(X).
+ niece(X,Y):-              
+       uncle(Y,X),
+       fem(X).
+        
+ ancestor(X,Z):-         
+       p(X,Z).
+ ancestor(X,Z):-
+       p(X,Y),
+       ancestor(Y,Z).

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="75F77B7C-72A2-B59F-5A20-B041E1428FD8" name="Sale">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>A9A68F2E-9F08-74A2-473B-7CC3B2668ED4</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FC2A480F-C9FB-844A-FFDA-747C4CCE750E">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>FEEC557E-A590-6A8E-0A45-14F83C2C0DF3</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="count" id="B87242FD-A9C6-D78C-34DE-70401138429C">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>992195BD-2B6C-C4BF-E8D4-0CC4084127D5</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="9099A7BA-0230-214E-1E76-4A247472E64E">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>2C74E23F-A6A5-1BC8-8544-EC4B9955C593</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Product_code" id="E32C6C01-72F7-3623-53A0-6547D5F53A70">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:49:11 UTC</createdTime>
+<generatorID>D3A3BE1F-AAC1-D317-A03E-6202727EE403</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F47A5766-92D3-3EEB-6EFD-3B68D2EEBA8D" referredColumn="2B498DEB-9864-AC9F-DD84-4D773BE039BF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CD59C19D-BC29-9C57-4536-13034C6D0380" name="Sale_PK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 13:05:28 UTC</createdTime>
+<generatorID>37773AB5-B6DC-AD42-6978-3130A335EAB2</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC2A480F-C9FB-844A-FFDA-747C4CCE750E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A93A703-C261-E0CA-9600-690D35A3B0AF" name="Sale__IDXv1">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:02:42 UTC</createdTime>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EC7EA5E4-9FCC-660F-A7D2-1413135B3D77</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E32C6C01-72F7-3623-53A0-6547D5F53A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C1FC654-7B26-887C-324E-508993A7160A" name="Sale_Product_FK">
+<createdBy>alext</createdBy>
+<createdTime>2022-04-14 14:06:45 UTC</createdTime>
+<generatorID>EC7EA5E4-9FCC-660F-A7D2-1413135B3D77</generatorID>
+<ownerDesignName>MultiDim</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E32C6C01-72F7-3623-53A0-6547D5F53A70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
