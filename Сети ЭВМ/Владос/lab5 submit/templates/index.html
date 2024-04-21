@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Игра угадай число</title>
+    <link rel="stylesheet" href="static/style.css">
+ </head>
+ <body>
+    <div class="background">
+        <div class="canvas">
+            <div class="head">
+                <h1>Игра угадай число</h1>
+		        <span class="range">Правила: {{rules}}</span>
+                <h2>Введите число</h2>
+                <div class="calculate">
+                    <form action='/check' method="post">
+                        {%  if btn1 == True %}
+                        <input type="submit" name="input_number" class="check_button" value="Проверить" disabled="disabled">
+                        <input type="text" class="input" name="user_number" placeholder="Число" disabled="disabled"/>
+                        {%  else  %}
+                        <input type="text" class="input" name="user_number" placeholder="Число" autofocus="autofocus"/>
+                        <input type="submit" name="input_number" class="check_button" value="Проверить" >
+                        {% endif %}
+                    </form>
+                    <form action='/restart' method="get">
+                        {%  if btn1 == True  %}
+                        <input type="submit" class="again_button" value="Заново" autofocus="autofocus"/>
+                        {%  else  %}
+                        <input type="submit" class="again_button" value="Заново"/>
+                        {% endif %}
+                    </form>
+                </div>
+            <div class="result">
+                <div class="check_result">
+                    <span class="check">Результат: {{result}} </span>
+                    <span class="check_out"></span>
+                </div>
+                <form  action="/guess" method="get" >
+                    <div class="hint">
+                        <span class="podskazka">Подсказка: {{hint}}</span>
+                        <span class="hint_out"></span>
+                    </div>
+                    <div class="try_count">
+                        <span class="popitki">Количество попыток: {{attempts}}</span>
+                        <span class="try_count_out"></span>
+                    </div>
+                </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

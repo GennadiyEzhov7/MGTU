@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Изучаем Vue.js</title>
+<meta charset="utf-8" />
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+<div class="container h-100 d-flex align-items-center justify-content-center" id="background">
+    <div id="canvas">
+        <img src="images/078cb44dc3cf9f1.png" height="80" width="100">
+        <aside class="col ms-5" id="right_input">
+            <table class="form-group text-light">
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Вес аппарата, кг</td>
+                    <td><input type="text" id="ship_weight" v-bind:disabled="isGameStarted" v-model="gameOptions.shipWeight"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Вес топлива, кг</td>
+                    <td><input type="text" id="gas_weight" v-bind:disabled="isGameStarted" v-model="gameOptions.gas_weight"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Вес импульса, кг</td>
+                    <td><input type="text" id="imp_weight" v-bind:disabled="isGameStarted" v-model="gameOptions.imp_weight"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Скорость истечения, м/с</td>
+                    <td><input type="text" id="expiration_rate" v-bind:disabled="isGameStarted" v-model="gameOptions.expiration_rate"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Маx ск-ть касания, м/с</td>
+                    <td><input type="text" id="max_touch_speed" v-bind:disabled="isGameStarted" v-model="gameOptions.max_touch_speed"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Уск. своб. падения, м/с</td>
+                    <td><input type="text" id="acceleration_of_free_fall" v-bind:disabled="isGameStarted" v-model="gameOptions.acceleration_of_free_fall"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Лимит времени, с</td>
+                    <td><input type="text" id="time_limit" v-bind:disabled="isGameStarted" v-model="gameOptions.time_limit"></td>
+                </tr>
+                <tr class="row my-3">
+                    <td class="col-9 fs-small">Нач. расстояние, м</td>
+                    <td><input type="text" id="initial_distance" v-bind:disabled="isGameStarted" v-model="gameOptions.initial_distance"></td>
+                </tr>
+            </table>
+            <div v-if="isGameStarted" class="text-light fs-small">
+                <table>
+                    <tr class="row my-3">
+                        <td class="col-9 fs-small">Текущая скорость, м/c </td>
+                        <td class="td" id="cur_speed">{{Math.round(ship.speed)}}</td>
+                    </tr>
+                    <tr class="row my-3">
+                        <td class="col-9 fs-small">Прошло времени, с </td>
+                        <td class="td" id="timeleft">{{Math.round(canva.height - ship.y - 200) <= 0 ? 0 : Math.round(canva.height - ship.y - 200)}}</td>
+                    </tr>
+                    <tr class="row my-3">
+                        <td class="col-9 fs-small">Расстояние, м </td>
+                        <td class="td" id="distance">{{Math.round(((new Date()).getTime() - startTime) / 1000)}}</td>
+                    </tr>
+                    <tr class="row my-3">
+                        <td class="col-9 fs-small">Осталось топлива, кг </td>
+                        <td class="td" id="gas_left">{{Math.round(gameOptions.fuelWeight)}}</td>
+                    </tr>
+                </table>
+                <button v-on:click="() => {isEngineOn = !isEngineOn;}" id="engine_on">Вкл/выкл двигатель</button>
+                <button v-on:click="pauseGame" v-bind:disabled="isGamePaused" id="pause">Пауза</button>
+                <button v-on:click="resumeGame" v-bind:disabled="!isGamePaused" id="continue">Продолжить</button>
+                <p v-if="isGameEnded" v-bind:class="result?'glow-success':'glow-danger'" class="py-3 prounded text-center fs-small fs-2." >
+                    {{isTimeOut ? "Время вышло!": (result ?" ˗ˋˏ ♡ ˎˊ˗ " :" ˙◠˙ ")}}
+                </p>
+                <button v-on:click="startGame" v-if="isGameEnded" class="btn game-button w-100 fs-small">Попробовать еще раз</button>
+            </div>
+        </aside>
+    </div>
+</div>
+<script src="https://unpkg.com/vue@2.7.14/dist/vue.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+<!--
+-->

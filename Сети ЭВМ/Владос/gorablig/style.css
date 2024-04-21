@@ -1,0 +1,21 @@
+#canvas{
+    background-image: url(images/canvas.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
+    width: 960px;
+    height: 600px;
+}
+#right_input{
+    background-color: aliceblue;
+    float: right;
+}
+#right_param{
+    background-color: aliceblue;
+    float: right;
+}
+input[type=text]{
+    width: 100px;
+}
+
