@@ -1,0 +1,33 @@
+select ename, sal, (select round(avg(sal), 3) from emp) from emp;
+
+select e.ename, e.sal, (select round(avg(ee.sal), 3) from emp ee where ee.ename <= e.ename) from emp e order by e.ename;
+
+select e.ename, e.deptno, (select sum(eee.sal) from emp eee where eee.ename <= e.ename) ename_deptno, (select sum(ee.sal) 
+    from emp ee where (ee.ename <= e.ename and ee.deptno = e.deptno) or ee.deptno < e.deptno) deptno_ename from emp e order by e.ename;
+
+select deptno, ename, sal, (select sum(sal) 
+    from (select * from emp order by ename desc) ee where (ee.ename <= e.ename and ee.deptno = e.deptno) and rownum <= 3) sum_sal from emp e order by deptno, ename;
+
+select ename, sal, hiredate, hiredate-100 windows_top, 
+	(select e.ename from (select * from emp eee where eee.hiredate > ee.hiredate - 100 order by eee.hiredate) e where rownum = 1) ename_perc, 
+	(select e.hiredate from (select * from emp eee where eee.hiredate > ee.hiredate - 100 order by eee.hiredate) e where rownum = 1) hiredate_prec
+	from emp ee order by hiredate asc;
+
+select ename, hiredate, sal,
+	(select round(avg(ee.sal),2) from emp ee where ee.hiredate <= e.hiredate and e.hiredate - ee.hiredate <= 100) ename_perc, 
+	(select round(avg(ee.sal),2) from emp ee where e.hiredate <= ee.hiredate and ee.hiredate - e.hiredate <= 100) hiredate_prec
+	from emp e order by hiredate;
+
+select ename, hiredate, sal,
+	(select ename from (select rownum, ename, hiredate from (select * from emp where hiredate <= (select hiredate from emp where ename = ee.ename) order by hiredate desc) where rownum <= 6 order by hiredate) where rownum = 1) ename_prec,
+	(select hiredate from (select rownum, ename, hiredate from (select * from emp where hiredate <= (select hiredate from emp where ename = ee.ename) order by hiredate desc) where rownum <= 6 order by hiredate) where rownum = 1) hiredate_prec
+	from emp ee order by hiredate;
+
+select ename, hiredate, sal ,first_value(ename) over (order by hiredate asc rows 5 preceding) ename_prec, first_value (hiredate) over (order by hiredate asc rows 5  preceding) hiredate_prec
+from emp order by hiredate asc
+
+
+select ename, hiredate,
+	(select ename from (select ename from emp where (hiredate - e.hiredate between 0 and 100) or (e.hiredate - hiredate between 0 and 100) order by hiredate) where rownum = 1) a1,
+	(select ename from (select ename from (select * from emp where (hiredate - e.hiredate between 0 and 100) or (e.hiredate - hiredate between 0 and 100) order by hiredate) order by hiredate desc) where rownum = 1) a2
+	from emp e order by hiredate;
