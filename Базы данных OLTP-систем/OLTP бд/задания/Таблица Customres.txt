@@ -1,0 +1,39 @@
+REM creation of dimension table CUSTOMERS ...
+CREATE TABLE SHcustomers
+    ( cust_id                NUMBER       
+    , cust_first_name        VARCHAR2(20) 
+        CONSTRAINT           customer_fname_nn NOT NULL
+    , cust_last_name         VARCHAR2(40) 
+        CONSTRAINT           customer_lname_nn NOT NULL
+    , cust_gender	     CHAR(1)
+    , cust_year_of_birth     NUMBER(4)
+    , cust_marital_status    VARCHAR2(20)
+    , cust_street_address    VARCHAR2(40) 
+        CONSTRAINT           customer_st_addr_nn NOT NULL
+    , cust_postal_code       VARCHAR2(10) 
+        CONSTRAINT           customer_pcode_nn NOT NULL
+    , cust_city              VARCHAR2(30) 
+        CONSTRAINT           customer_city_nn NOT NULL
+    , cust_state_province    VARCHAR2(40)
+    , country_id             CHAR(2) 
+        CONSTRAINT           customer_country_id_nn NOT NULL
+    , cust_main_phone_number VARCHAR2(25)
+    , cust_income_level      VARCHAR2(30)
+    , cust_credit_limit      NUMBER
+    , cust_email             VARCHAR2(30)
+    ) 
+PCTFREE 5;
+
+CREATE UNIQUE INDEX customers_pk
+   ON SHcustomers (cust_id) ;
+
+ALTER TABLE SHcustomers 
+ADD ( CONSTRAINT customers_pk
+      PRIMARY KEY (cust_id) RELY ENABLE VALIDATE
+    ) ;
+
+ALTER TABLE SHcustomers
+ADD ( CONSTRAINT customers_country_fk
+      FOREIGN KEY (country_id) REFERENCES SHcountries(country_id)
+      RELY ENABLE VALIDATE);
+

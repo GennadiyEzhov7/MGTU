@@ -1,0 +1,38 @@
+REM creation of dimension table COUNTRIES ...
+CREATE TABLE countries 
+    ( country_id        CHAR(2) 
+    , country_name      VARCHAR2(40) 
+        CONSTRAINT      country_country_name_nn NOT NULL 
+    , country_subregion VARCHAR2(30) 
+    , country_region    VARCHAR2(20) 
+    )
+PCTFREE 5; 
+
+ALTER TABLE countries
+ADD ( CONSTRAINT country_pk
+      PRIMARY KEY (country_id) RELY ENABLE VALIDATE
+    ) ;
+
+insert into SHCOUNTRIES values('US','United States of America','Northern America','Americas');
+insert into SHCOUNTRIES values('DE','Germany','Western Europe','Europe');
+insert into SHCOUNTRIES values('UK','United Kingdom','Western Europe','Europe');
+insert into SHCOUNTRIES values('NL','The Netherlands','Western Europe','Europe');
+insert into SHCOUNTRIES values('IE','Ireland','Western Europe','Europe');
+insert into SHCOUNTRIES values('DK','Denmark','Western Europe','Europe');
+insert into SHCOUNTRIES values('FR','France','Western Europe','Europe');
+insert into SHCOUNTRIES values('ES','Spain','Western Europe','Europe');
+insert into SHCOUNTRIES values('TR','Turkey','Western Europe','Europe');
+insert into SHCOUNTRIES values('PL','Poland','Eastern Europe','Europe');
+insert into SHCOUNTRIES values('BR','Brazil','Southern America','Americas');
+insert into SHCOUNTRIES values('AR','Argentina','Southern America','Americas');
+insert into SHCOUNTRIES values('MY','Malaysia','Asia','Asia');
+insert into SHCOUNTRIES values('JP','Japan','Asia','Asia');
+insert into SHCOUNTRIES values('IN','India','Asia','Asia');
+insert into SHCOUNTRIES values('AU','Australia','Australia','Oceania');
+insert into SHCOUNTRIES values('NZ','New Zealand','Australia','Oceania');
+insert into SHCOUNTRIES values('ZA','South Africa','Africa','Africa');
+insert into SHCOUNTRIES values('SA','Saudi Arabia','Middle East','Middle East');
+insert into SHCOUNTRIES values('CA','Canada','Northern America','Americas');
+insert into SHCOUNTRIES values('CN','China','Asia','Asia');
+insert into SHCOUNTRIES values('SG','Singapore','Asia','Asia');
+insert into SHCOUNTRIES values('IT','Italy','Western Europe','Europe');
