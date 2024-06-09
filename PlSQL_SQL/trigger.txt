@@ -1,0 +1,8 @@
+create or replace trigger max_currency
+after insert or delete on tdeals
+for each row
+begin
+  if((CurrencySold  5000) or (Purchased  5000)) then
+    raise_application_error(-20001,'Превышен лимит');
+  end if;
+end;
